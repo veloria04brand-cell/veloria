@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --color-noir: #0b0b0a;
+  --color-noir-soft: #1a1917;
+  --color-blanc: #faf9f6;
+  --color-ivoire: #f3f0e9;
+  --color-or: #b08d57;
+  --color-or-clair: #d9c294;
+  --color-or-fonce: #8a6c3f;
+  --color-gris: #6e6559;
+  --color-gris-clair: #a49c8d;
+}
+
+@theme inline {
+  --color-noir: var(--color-noir);
+  --color-noir-soft: var(--color-noir-soft);
+  --color-blanc: var(--color-blanc);
+  --color-ivoire: var(--color-ivoire);
+  --color-or: var(--color-or);
+  --color-or-clair: var(--color-or-clair);
+  --color-or-fonce: var(--color-or-fonce);
+  --color-gris: var(--color-gris);
+  --color-gris-clair: var(--color-gris-clair);
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: "Avenir Next", Avenir, "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: var(--color-blanc);
+  color: var(--color-noir);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+::selection {
+  background: var(--color-or);
+  color: var(--color-blanc);
+}
+
+/* Hairline gold divider that draws itself */
+.trait-or {
+  position: relative;
+  display: block;
+  height: 1px;
+  background: var(--color-or);
+  transform-origin: left;
+  animation: trait-draw 1s ease-out forwards;
+}
+@keyframes trait-draw {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.eyebrow {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: var(--color-or-fonce);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trait-or { animation: none; }
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--color-blanc); }
+::-webkit-scrollbar-thumb { background: var(--color-gris-clair); border-radius: 0; }
