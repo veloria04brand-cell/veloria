@@ -24,22 +24,22 @@ export const PRODUCTS: Product[] = [
   
   {
     id: "1",
-    slug: "collier-linea",
-    name: "Collier Linea",
+    slug: "ensemble-van-cleef",
+    name: "Ensemble Van Cleef",
     category: "bijoux",
     price: 320,
     description:
-      "Chaîne plaquée or 18 carats, fermoir sécurisé, pendentif minimaliste gravé à la main.",
+      "Ensemble raffiné composé d'un collier, de boucles d'oreilles et d'une bague, finition plaqué or avec motifs floraux gravés.",
     colors: [
       { name: "Or", hex: "#b08d57" },
-      { name: "Argent", hex: "#c7c7c7" },
+
     ],
     stock: 1,
     images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200",
-      "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1200",
+      "https://ibb.co/YFSJjNT7",
+  
     ],
-    popularity: 87,
+    popularity: 95,
     isFeatured: true,
     isNew: true,
   },
