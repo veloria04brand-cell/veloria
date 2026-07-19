@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     ],
     stock: 1,
     images: [
-      "https://i.ibb.co/ZprvTf16/Chat-GPT-Image-Jul-19-2026-12-07-21-PM.png",
+      "https://i.ibb.co/2YvGcMK3/Chat-GPT-Image-Jul-19-2026-12-07-21-PM.jpg",
   
     ],
     popularity: 95,
