@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     "isFeatured": true,
     "isNew": true
   },
-{
+ {
     "id": "5",
     "slug": "bague-solitaire-rose",
     "name": "Bague Solitaire Royal - Or",
