@@ -46,7 +46,7 @@ export const PRODUCTS: Product[] = [
 
 
   {
-    id: "1",
+    id: "2",
     slug: "bracelet-tulip",
     name: "bracelet tulip",
     category: "bijoux",
@@ -71,7 +71,42 @@ export const PRODUCTS: Product[] = [
   },
 
 
+  {
+    "id": "3",
+    "slug": "bague-fleur-diamants",
+    "name": "Bague Pétale Lux - Or",
+    "category": "bijoux",
+    "price": 190,
+    "description": "Bague en acier inoxydable plaqué or, design floral serti de zircons, garantie anti-ternissement et résistante à l'eau.",
+    "colors": [
+      { "name": "Or", "hex": "#b08d57" }
+    ],
+    "stock": 1,
+    "images": ["https://i.ibb.co/nsfNNsSz/Chat-GPT-Image-19-juil-2026-13-42-05.jpg"],
+    "popularity": 94,
+    "isFeatured": true,
+    "isNew": true
+  },
+{
+    "id": "5",
+    "slug": "bague-solitaire-rose",
+    "name": "Bague Solitaire Royal - Or",
+    "category": "bijoux",
+    "price": 210,
+    "description": "Bague solitaire en acier inoxydable de haute qualité plaqué or avec pierre rose, ne change https://github.com/veloria04brand-cell/veloria/blob/main/lib/products.tspas de couleur, garantie incluse.",
+    "colors": [
+      { "name": "Or", "hex": "#b08d57" }
+    ],
+    "stock": 1,
+    "images": ["https://i.ibb.co/Wwz7RMW/Chat-GPT-Image-19-juil-2026-13-47-34.jpg"],
+    "popularity": 96,
+    "isFeatured": true,
+    "isNew": true
+  },
 
+
+  
+]
 ];
 
 export function getProductBySlug(slug: string) {
