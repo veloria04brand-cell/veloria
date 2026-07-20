@@ -4,8 +4,9 @@
 export const SHOP = {
   name: "VELORIA",
   tagline: "Accessoires premium, intemporels.",
-  whatsappNumber: "212708962553", // ⚠️ à remplacer par le vrai numéro du vendeur
-  email: "contact@veloria-store.com",
-  instagram: "veloria04brand@gmail.com",
+  whatsappNumber: "212708962553",
+  email: "veloria04brand@gmail.com",
+  address: "Eljadida, Maroc", // 
+  instagram: "https://www.instagram.com/veloriaselect/",
   facebook: "https://www.facebook.com/profile.php?id=61589745449192",
 };
