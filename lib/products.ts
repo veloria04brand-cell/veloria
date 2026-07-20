@@ -106,7 +106,7 @@ export const PRODUCTS: Product[] = [
 
 
   
-]
+
 ];
 
 export function getProductBySlug(slug: string) {
