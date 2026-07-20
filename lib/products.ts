@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     slug: "ensemble-van-cleef",
     name: "Ensemble Van Cleef",
     category: "bijoux",
-    price: 320,
+    price: 100,
     description:
       "Ensemble raffiné composé d'un collier, de boucles d'oreilles et d'une bague, finition plaqué or avec motifs floraux gravés.",
     colors: [
@@ -45,6 +45,30 @@ export const PRODUCTS: Product[] = [
   },
 
 
+  {
+    id: "1",
+    slug: "bracelet-tulip",
+    name: "bracelet tulip",
+    category: "bijoux",
+    price: 100,
+    description:
+      "Bracelet délicat motif fleurs en plaqué or, orné de cristaux bleus profonds, idéal pour une touche d'élégance.",
+    colors: [
+      { name: "Or", hex: "#b08d57" },
+      { "name": "Blanc", "hex": "#ffffff" },
+      
+
+    ],
+    stock: 2,
+    images: [
+      "https://i.ibb.co/Zz6yjzjt/Chat-GPT-Image-19-juil-2026-13-51-03.jpg",
+      "https://i.ibb.co/SDTzr7fD/Chat-GPT-Image-19-juil-2026-13-52-25.jpg",
+  
+    ],
+    popularity: 95,
+    isFeatured: true,
+    isNew: true,
+  },
 
 
 
