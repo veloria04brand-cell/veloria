@@ -81,7 +81,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Solitaire Royal - Or",
     category: "bijoux",
     price: 30,
-    description: "Bague solitaire en acier inoxydable de haute qualité plaqué or avec pierre rose, ne change pas de couleur, garantie incluse.",
+    description: "Bague solitaire en acier inoxydable de haute qualité  avec pierre rose, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
@@ -314,7 +314,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "15",
-    slug: "set-joncs-cise-or ",
+    slug: "set-joncs-cise",
     name: "Set de Joncs Ciselés - (Sartla )",
     category: "bijoux",
     price: 55,
@@ -390,7 +390,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Perlée Éclat - Or",
     category: "bijoux",
     price: 30,
-    description: "Bague en acier inoxydable de haute qualité plaqué or avec détail perlé et zircon central. Ne change pas de couleur, résistant à l'eau.",
+    description: "Bague en acier inoxydable de haute qualité plaqué  avec détail perlé et zircon central. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
@@ -403,10 +403,10 @@ export const PRODUCTS: Product[] = [
   {
     id: "20",
     slug: "bague-luxe-geometry",
-    name: "Bague Géométrique Luxe - Or",
+    name: "Bague Géométrique Luxe ",
     category: "bijoux",
-    price: 30,
-    description: "Bague moderne en acier inoxydable plaqué or au design structuré et lumineux. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
+    price: 20,
+    description: "Bague moderne en acier inoxydable  au design structuré et lumineux. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
@@ -419,7 +419,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "21",
     slug: "bague-serti-divine",
-    name: "Bague Serti Divine - Or",
+    name: "Bague Serti Divine",
     category: "bijoux",
     price: 30,
     description: "Bague élégante entièrement sertie de zircons en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur.",
@@ -435,7 +435,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "22",
     slug: "bague-alliance-zircon",
-    name: "Bague Alliance Étincelante - Or",
+    name: "Bague Alliance Étincelante ",
     category: "bijoux",
     price: 30,
     description: "Alliance fine en acier inoxydable de haute qualité plaqué or, pavée de zircons brillants. Ne change pas de couleur, résistant à l'eau.",
@@ -467,9 +467,9 @@ export const PRODUCTS: Product[] = [
   {
     id: "24",
     slug: "bague-minimaliste-croisee",
-    name: "Bague Croisée Lumineuse - Or",
+    name: "Bague Croisée Lumineuse ",
     category: "bijoux",
-    price: 20,
+    price: 30,
     description: "Bague au design croisé épuré en acier inoxydable de haute qualité plaqué or. Ne change pas de couleur, résistant à l'eau, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
