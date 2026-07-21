@@ -450,11 +450,11 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "23",
-    slug: "collier-initiale-prestige",
-    name: "Collier Initiales & Étoile",
+    slug: "bracelet-initiale-prestige",
+    name: "Bracelet Charm's Initiales & Étoile",
     category: "bijoux",
     price: 180,
-    description: "Collier pendentif médaillon en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
+    description: "Bracelet chaîne délicat avec médaillon charm's en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
@@ -476,9 +476,7 @@ export const PRODUCTS: Product[] = [
     ],
     stock: 1,
     images: [
-      "https://i.ibb.co/67T0SGTS/Gemini-Generated-Image-bvl0dcbvl0dcbvl0.jpg",
-      "https://i.ibb.co/hJVkw5px/Gemini-Generated-Image-vz6gp7vz6gp7vz6g.jpg"
-    ],
+      "https://i.ibb.co/67T0SGTS/Gemini-Generated-Image-bvl0dcbvl0dcbvl0.jpg"],
     popularity: 91,
     isFeatured: true,
     isNew: true
