@@ -188,6 +188,162 @@ export const PRODUCTS: Product[] = [
     isNew: true
   }
 
+
+
+{
+    id: "9",
+    slug: "collier-u-moderne",
+    name: "Collier U-Link Élégance",
+    category: "bijoux",
+    price: 180,
+    description: "Collier géométrique en acier inoxydable de haute qualité (finition dorée). Design moderne et épuré, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 5,
+    images: [
+      "https://i.ibb.co/30Zc9f2/ChatGPT-Image-Jul-19-2026-11-16-04-AM.jpg"
+    ],
+    popularity: 95,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "10",
+    slug: "collier-croissant-lune",
+    name: "Collier Croissant de Lune Serti",
+    category: "bijoux",
+    price: 190,
+    description: "Collier pendentif croissant de lune en acier inoxydable de haute qualité, orné de zircons éclatants. Résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 4,
+    images: [
+      "https://i.ibb.co/6y1Z289/ChatGPT-Image-Jul-19-2026-11-18-34-AM.jpg"
+    ],
+    popularity: 96,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "11",
+    slug: "collier-goutte-perlee",
+    name: "Collier Goutte Nacrée",
+    category: "bijoux",
+    price: 170,
+    description: "Collier délicat avec pendentif en forme de goutte en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 6,
+    images: [
+      "https://i.ibb.co/7NkNbzKK/Gemini-Generated-Image-tiywwftiywwftiyw.jpg"
+    ],
+    popularity: 92,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "12",
+    slug: "collier-solitaire-prestige",
+    name: "Collier Solitaire Prestige",
+    category: "bijoux",
+    price: 160,
+    description: "Collier chaîne fine avec pierre solitaire étincelante en acier inoxydable de haute qualité. Élégant et intemporel, résistant à l'eau, ne change pas de couleur.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 5,
+    images: [
+      "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-yfmvzvyfmvzvyfmv.jpg"
+    ],
+    popularity: 94,
+    isFeatured: true,
+    isNew: true
+  },
+
+
+
+ {
+    id: "9",
+    slug: "collier-u-moderne",
+    name: "Collier U-Link Élégance",
+    category: "bijoux",
+    price: 180,
+    description: "Collier géométrique en acier inoxydable de haute qualité (finition dorée). Design moderne et épuré, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/FSTF0yt/Chat-GPT-Image-Jul-19-2026-11-16-04-AM.jpg"
+    ],
+    popularity: 95,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "10",
+    slug: "collier-croissant-lune",
+    name: "Collier Croissant de Lune Serti",
+    category: "bijoux",
+    price: 190,
+    description: "Collier pendentif croissant de lune en acier inoxydable de haute qualité, orné de zircons éclatants. Résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/9HQSN90d/Chat-GPT-Image-Jul-19-2026-11-18-34-AM.jpg"
+    ],
+    popularity: 96,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "11",
+    slug: "collier-goutte-perlee",
+    name: "Collier Goutte Nacrée",
+    category: "bijoux",
+    price: 170,
+    description: "Collier délicat avec pendentif en forme de goutte en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/G4z9v90G/Gemini-Generated-Image-tiywwftiywwftiyw.jpg"
+    ],
+    popularity: 92,
+    isFeatured: true,
+    isNew: true
+  },
+
+  {
+    id: "12",
+    slug: "collier-solitaire-prestige",
+    name: "Collier Solitaire Prestige",
+    category: "bijoux",
+    price: 160,
+    description: "Collier chaîne fine avec pierre solitaire étincelante en acier inoxydable de haute qualité. Élégant et intemporel, résistant à l'eau, ne change pas de couleur.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/G4cXvs3R/Gemini-Generated-Image-yfmvzvyfmvzvyfmv.jpg"
+    ],
+    popularity: 94,
+    isFeatured: true,
+    isNew: true
+  }   
+
+
+
+
+
+  
   
 ];
 
