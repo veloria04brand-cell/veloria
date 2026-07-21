@@ -4,7 +4,7 @@ import { CATEGORIES } from "@/lib/products";
 
 const CATEGORY_IMAGES: Record<string, string> = {
   montres: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800",
-  bijoux: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800",
+  bijoux: "https://i.ibb.co/99RmcJWh/Chat-GPT-Image-Jul-19-2026-12-50-19-PM.jpg",
   sacs: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800",
   lunettes: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800",
 };
@@ -26,7 +26,7 @@ export function CategoryGrid() {
             className="group relative aspect-[3/4] overflow-hidden bg-ivoire block"
           >
             <Image
-              src={CATEGORY_IMAGES[c.slug]}
+              src={CATEGORY_IMAGES[c.slug] || CATEGORY_IMAGES.bijoux}
               alt={c.label}
               fill
               sizes="(max-width: 768px) 50vw, 25vw"
@@ -44,7 +44,6 @@ export function CategoryGrid() {
 }
 
 const REVIEWS = [
-  const REVIEWS = [
   {
     name: "Rim A.",
     text: "Franchement un coup de cœur ! Je l'ai gardé sous la douche et à la plage, la couleur n'a absolument pas bougé. La finition dorée est magnifique.",
@@ -72,21 +71,26 @@ export function Testimonials() {
         <div className="text-center mb-12">
           <span className="eyebrow text-or-fonce">Avis clients</span>
           <h2 className="font-display text-3xl md:text-4xl mt-3">
-            Ils portent VELORIA
+            Elles portent VELORIA
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {REVIEWS.map((r) => (
-            <div key={r.name} className="bg-blanc p-8">
-              <div className="flex gap-1 text-or mb-4" aria-hidden>
-                {Array.from({ length: r.rating }).map((_, i) => (
-                  <span key={i}>★</span>
-                ))}
+            <div key={r.name} className="bg-blanc p-8 flex flex-col justify-between">
+              <div>
+                <div className="flex gap-1 text-or mb-4" aria-hidden>
+                  {Array.from({ length: r.rating }).map((_, i) => (
+                    <span key={i}>★</span>
+                  ))}
+                </div>
+                <p className="text-sm text-gris leading-relaxed mb-5">
+                  &ldquo;{r.text}&rdquo;
+                </p>
               </div>
-              <p className="text-sm text-gris leading-relaxed mb-5">
-                &ldquo;{r.text}&rdquo;
-              </p>
-              <span className="eyebrow text-noir">{r.name}</span>
+              <div>
+                <span className="eyebrow text-noir block">{r.name}</span>
+                <span className="text-xs text-or-fonce tracking-wider">{r.role}</span>
+              </div>
             </div>
           ))}
         </div>
