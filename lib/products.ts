@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
-    stock: 1,
+    stock: 2,
     images: ["https://i.ibb.co/nsfNNsSz/Chat-GPT-Image-19-juil-2026-13-42-05.jpg"],
     popularity: 94,
     isFeatured: true,
@@ -106,6 +106,45 @@ export const PRODUCTS: Product[] = [
       "https://i.ibb.co/7NkNbzKK/Gemini-Generated-Image-yryplgyryplgyryp.jpg",
       "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-fkyp64fkyp64fkyp.jpg",
       "https://i.ibb.co/c0JdMz1/Gemini-Generated-Image-v3jm3wv3jm3wv3jm.jpg"
+    ],
+    popularity: 90,
+    isFeatured: true,
+    isNew: true
+  },
+   {
+    id: "6",
+    slug: "boucles-oreilles-signature",
+    name: "Boucles d'oreilles Signature",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+    
+      "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-fkyp64fkyp64fkyp.jpg",
+      "https://i.ibb.co/c0JdMz1/Gemini-Generated-Image-v3jm3wv3jm3wv3jm.jpg"
+    ],
+    popularity: 90,
+    isFeatured: true,
+    isNew: true
+  },
+  
+   {
+    id: "5",
+    slug: "boucles-oreilles-signature",
+    name: "Boucles d'oreilles Signature",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/c0JdMz1/Gemini-Generated-Image-v3jm3wv3jm3wv3jm.jpg",
     ],
     popularity: 90,
     isFeatured: true,
