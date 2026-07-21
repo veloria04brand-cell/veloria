@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 95,
     isFeatured: true,
-    isNew: true,
+    isNew: false,
   },
   {
     id: "2",
@@ -56,8 +56,8 @@ export const PRODUCTS: Product[] = [
       "https://i.ibb.co/SDTzr7fD/Chat-GPT-Image-19-juil-2026-13-52-25.jpg",
     ],
     popularity: 95,
-    isFeatured: true,
-    isNew: true,
+    isFeatured: false,
+    isNew: false,
   },
   {
     id: "3",
@@ -72,8 +72,8 @@ export const PRODUCTS: Product[] = [
     stock: 2,
     images: ["https://i.ibb.co/nsfNNsSz/Chat-GPT-Image-19-juil-2026-13-42-05.jpg"],
     popularity: 94,
-    isFeatured: true,
-    isNew: true
+    isFeatured: false,
+    isNew: false
   },
   {
     id: "4",
@@ -89,7 +89,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/Wwz7RMW/Chat-GPT-Image-19-juil-2026-13-47-34.jpg"],
     popularity: 96,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "5",
@@ -109,7 +109,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 90,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
    {
     id: "6",
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 90,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "6",
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 91,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "7",
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 92,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "8",
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 93,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "9",
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 95,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "10",
@@ -238,7 +238,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 96,
     isFeatured: true,
-    isNew: true
+   isNew: false
   },
   {
     id: "11",
@@ -256,7 +256,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 92,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "12",
@@ -274,7 +274,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 94,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "13",
@@ -292,7 +292,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 91,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "14",
@@ -310,7 +310,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 93,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "15",
@@ -328,7 +328,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 95,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "16",
@@ -346,7 +346,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 92,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "17",
@@ -364,7 +364,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 96,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "18",
@@ -382,7 +382,7 @@ export const PRODUCTS: Product[] = [
     ],
     popularity: 98,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "19",
@@ -398,7 +398,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/Fbww2Zkh/Chat-GPT-Image-19-juil-2026-13-40-48.jpg"],
     popularity: 92,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "20",
@@ -414,7 +414,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/Gf3M8CTH/Chat-GPT-Image-19-juil-2026-13-43-23.jpg"],
     popularity: 93,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "21",
@@ -430,7 +430,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/7tw9b2KK/Chat-GPT-Image-19-juil-2026-13-44-57.jpg"],
     popularity: 95,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "22",
@@ -446,7 +446,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/JwCKgkhG/Chat-GPT-Image-19-juil-2026-13-48-41.jpg"],
     popularity: 94,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "23",
@@ -462,7 +462,7 @@ export const PRODUCTS: Product[] = [
     images: ["https://i.ibb.co/TMYGb0XR/Chat-GPT-Image-Jul-19-2026-11-31-07-AM.jpg"],
     popularity: 93,
     isFeatured: true,
-    isNew: true
+    isNew: false
   },
   {
     id: "24",
@@ -479,7 +479,7 @@ export const PRODUCTS: Product[] = [
       "https://i.ibb.co/67T0SGTS/Gemini-Generated-Image-bvl0dcbvl0dcbvl0.jpg"],
     popularity: 91,
     isFeatured: true,
-    isNew: true
+    isNew: false
   }
 ];
 
