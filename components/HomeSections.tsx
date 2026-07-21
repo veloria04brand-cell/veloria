@@ -44,20 +44,24 @@ export function CategoryGrid() {
 }
 
 const REVIEWS = [
+  const REVIEWS = [
   {
-    name: "Sofia M.",
-    text: "Qualité irréprochable, la montre est encore plus belle en vrai. Livraison rapide et commande simplissime via WhatsApp.",
+    name: "Rim A.",
+    text: "Franchement un coup de cœur ! Je l'ai gardé sous la douche et à la plage, la couleur n'a absolument pas bougé. La finition dorée est magnifique.",
+    role: "Casablanca",
     rating: 5,
   },
   {
-    name: "Yassine B.",
-    text: "Service client réactif, produit conforme aux photos. Je recommande sans hésiter.",
+    name: "Kawtar M.",
+    text: "Le collier est encore plus élégant en vrai que sur les photos. Commande validée en deux minutes sur WhatsApp et reçue super rapidement. Top !",
+    role: "Rabat",
     rating: 5,
   },
   {
-    name: "Lina K.",
-    text: "Le sac Camille est magnifique, très bien fini. Une vraie pièce premium à prix juste.",
-    rating: 4,
+    name: "Ghita B.",
+    text: "Enfin des bijoux en acier inoxydable de vraie qualité au Maroc qui ne verdissent pas. Le packaging est soigné, on dirait un cadeau de grande marque.",
+    role: "Marrakech",
+    rating: 5,
   },
 ];
 
