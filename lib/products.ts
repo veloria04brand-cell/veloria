@@ -344,6 +344,105 @@ export const PRODUCTS: Product[] = [
     popularity: 98,
     isFeatured: true,
     isNew: true
+  },
+  {
+    id: "19",
+    slug: "bague-perlee-zircon",
+    name: "Bague Perlée Éclat - Or",
+    category: "bijoux",
+    price: 160,
+    description: "Bague en acier inoxydable de haute qualité plaqué or avec détail perlé et zircon central. Ne change pas de couleur, résistant à l'eau.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: ["https://i.ibb.co/Fbww2Zkh/Chat-GPT-Image-19-juil-2026-13-40-48.jpg"],
+    popularity: 92,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "20",
+    slug: "bague-luxe-geometry",
+    name: "Bague Géométrique Luxe - Or",
+    category: "bijoux",
+    price: 180,
+    description: "Bague moderne en acier inoxydable plaqué or au design structuré et lumineux. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: ["https://i.ibb.co/Gf3M8CTH/Chat-GPT-Image-19-juil-2026-13-43-23.jpg"],
+    popularity: 93,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "21",
+    slug: "bague-serti-divine",
+    name: "Bague Serti Divine - Or",
+    category: "bijoux",
+    price: 200,
+    description: "Bague élégante entièrement sertie de zircons en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: ["https://i.ibb.co/7tw9b2KK/Chat-GPT-Image-19-juil-2026-13-44-57.jpg"],
+    popularity: 95,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "22",
+    slug: "bague-alliance-zircon",
+    name: "Bague Alliance Étincelante - Or",
+    category: "bijoux",
+    price: 170,
+    description: "Alliance fine en acier inoxydable de haute qualité plaqué or, pavée de zircons brillants. Ne change pas de couleur, résistant à l'eau.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: ["https://i.ibb.co/JwCKgkhG/Chat-GPT-Image-19-juil-2026-13-48-41.jpg"],
+    popularity: 94,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "23",
+    slug: "collier-initiale-prestige",
+    name: "Collier Initiales & Étoile",
+    category: "bijoux",
+    price: 180,
+    description: "Collier pendentif médaillon en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: ["https://i.ibb.co/TMYGb0XR/Chat-GPT-Image-Jul-19-2026-11-31-07-AM.jpg"],
+    popularity: 93,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "24",
+    slug: "bague-minimaliste-croisee",
+    name: "Bague Croisée Lumineuse - Or",
+    category: "bijoux",
+    price: 160,
+    description: "Bague au design croisé épuré en acier inoxydable de haute qualité plaqué or. Ne change pas de couleur, résistant à l'eau, garantie incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/67T0SGTS/Gemini-Generated-Image-bvl0dcbvl0dcbvl0.jpg",
+      "https://i.ibb.co/hJVkw5px/Gemini-Generated-Image-vz6gp7vz6gp7vz6g.jpg"
+    ],
+    popularity: 91,
+    isFeatured: true,
+    isNew: true
   }
 ];
 
@@ -358,3 +457,4 @@ export function formatPrice(value: number) {
     maximumFractionDigits: 0,
   }).format(value);
 }
+
