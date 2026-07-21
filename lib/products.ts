@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     name: "Boucles d'oreilles Signature",
     category: "bijoux",
     price: 150,
-    description: "Paire de boucles d'oreilles en acier inoxydable plaqué or. Design intemporel, résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
@@ -110,7 +110,85 @@ export const PRODUCTS: Product[] = [
     popularity: 90,
     isFeatured: true,
     isNew: true
+  },
+
+  {
+    id: "5",
+    slug: "boucles-oreilles-signature",
+    name: "Boucles d'oreilles Signature",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 3,
+    images: [
+      "https://i.ibb.co/7NkNbzKK/Gemini-Generated-Image-yryplgyryplgyryp.jpg",
+      "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-fkyp64fkyp64fkyp.jpg",
+      "https://i.ibb.co/c0JdMz1/Gemini-Generated-Image-v3jm3wv3jm3wv3jm.jpg"
+    ],
+    popularity: 90,
+    isFeatured: true,
+    isNew: true
+  },
+
+  {
+    id: "6",
+    slug: "boucles-oreilles-color-bleu",
+    name: "Boucles d'oreilles Éclat - Bleu",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Bleu", hex: "#3b82f6" }
+    ],
+    stock: 1,
+    images: [
+      "https://i.ibb.co/QFhW7vh9/Gemini-Generated-Image-5zxrx55zxrx55zxr.jpg "
+    ],
+    popularity: 91,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "7",
+    slug: "boucles-oreilles-color-rose-bebe",
+    name: "Boucles d'oreilles Éclat - Rose Bébé",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Rose Bébé", hex: "#fbcfe8" }
+    ],
+    stock: 1,
+    images: [
+      " https://i.ibb.co/sd1wwKwB/Gemini-Generated-Image-p5ienep5ienep5ie.jpg "
+    ],
+    popularity: 92,
+    isFeatured: true,
+    isNew: true
+  },
+  {
+    id: "8",
+    slug: "boucles-oreilles-color-somo",
+    name: "Boucles d'oreilles Éclat - Somo",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Somo", hex: "#ffa07a" }
+    ],
+    stock: 1,
+    images: [
+      " https://i.ibb.co/cc3TvYnS/Gemini-Generated-Image-2kcwfs2kcwfs2kcw.jpg   "
+    ],
+    popularity: 93,
+    isFeatured: true,
+    isNew: true
   }
+
+  
 ];
 
 export function getProductBySlug(slug: string) {
