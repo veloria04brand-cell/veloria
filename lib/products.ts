@@ -22,11 +22,11 @@ export const PRODUCTS: Product[] = [
   {
     id: "1",
     slug: "ensemble-van-cleef",
-    name: "Ensemble Van Cleef",
+    name: "Ensemble Élégance",
     category: "bijoux",
     price: 100,
     description:
-      "Ensemble raffiné composé d'un collier, de boucles d'oreilles et d'une bague, finition plaqué or avec motifs floraux gravés.",
+      "Ensemble raffiné composé d'un collier, de boucles d'oreilles et d'une bague, fabriqué en acier inoxydable avec une finition dorée.",
     colors: [
       { name: "Or", hex: "#b08d57" },
     ],
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
       "https://i.ibb.co/SDTzr7fD/Chat-GPT-Image-19-juil-2026-13-52-25.jpg",
     ],
     popularity: 95,
-    isFeatured: false,
+    isFeatured: true,
     isNew: false,
   },
   {
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     stock: 2,
     images: ["https://i.ibb.co/nsfNNsSz/Chat-GPT-Image-19-juil-2026-13-42-05.jpg"],
     popularity: 94,
-    isFeatured: false,
+    isFeatured: true,
     isNew: false
   },
   {
