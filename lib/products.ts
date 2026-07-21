@@ -45,6 +45,7 @@ export const PRODUCTS: Product[] = [
     name: "bracelet tulip",
     category: "bijoux",
     price: 40,
+    oldPrice: 55,
     description:
       "Bracelet délicat motif fleurs en plaqué or, orné de cristaux bleus profonds, idéal pour une touche d'élégance.",
     colors: [
@@ -66,6 +67,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Pétale Lux - Or",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Bague en acier inoxydable plaqué or, design floral serti de zircons, garantie anti-ternissement et résistante à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -82,6 +84,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Solitaire Royal - Or",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Bague solitaire en acier inoxydable de haute qualité  avec pierre rose, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -211,6 +214,7 @@ export const PRODUCTS: Product[] = [
     name: "Collier U-Link Élégance",
     category: "bijoux",
     price: 45,
+    oldPrice: 60,
     description: "Collier géométrique en acier inoxydable de haute qualité (finition dorée). Design moderne et épuré, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -229,6 +233,7 @@ export const PRODUCTS: Product[] = [
     name: "Collier Croissant de Lune Serti",
     category: "bijoux",
     price: 50,
+    oldPrice: 65,
     description: "Collier pendentif croissant de lune en acier inoxydable de haute qualité, orné de zircons éclatants. Résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -247,6 +252,7 @@ export const PRODUCTS: Product[] = [
     name: "Collier Goutte Nacrée",
     category: "bijoux",
     price: 45,
+    oldPrice: 60,
     description: "Collier délicat avec pendentif en forme de goutte en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -265,6 +271,7 @@ export const PRODUCTS: Product[] = [
     name: "Collier Solitaire Prestige",
     category: "bijoux",
     price: 50,
+    oldPrice: 65,
     description: "Collier chaîne fine avec pierre solitaire étincelante en acier inoxydable de haute qualité. Élégant et intemporel, résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -316,9 +323,10 @@ export const PRODUCTS: Product[] = [
   {
     id: "15",
     slug: "set-joncs-cise",
-    name: "Set de Joncs Ciselés - (Sartla )",
+    name: "Set de Joncs Ciselés - (Sartla Deq elbra )",
     category: "bijoux",
-    price: 55,
+    price: 85,
+    oldPrice: 99,
     description: "Ensemble de jonc texturés et ajourés en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -351,10 +359,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "17",
-    slug: "set-joncs-multiples-torsades",
+    slug: "Sertla Simple & Mberam",
     name: "Set Joncs Multiples & Torsades",
     category: "bijoux",
-    price: 70,
+    price: 55,
     description: "Accumulation de bracelets joncs lisses et torsadés en acier inoxydable de haute qualité. Style audacieux et intemporel, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -391,6 +399,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Perlée Éclat - Or",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Bague en acier inoxydable de haute qualité plaqué  avec détail perlé et zircon central. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -423,6 +432,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Serti Divine",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Bague élégante entièrement sertie de zircons en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -439,6 +449,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Alliance Étincelante ",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Alliance fine en acier inoxydable de haute qualité plaqué or, pavée de zircons brillants. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -455,6 +466,7 @@ export const PRODUCTS: Product[] = [
     name: "Bracelet Charm's Initiales & Étoile",
     category: "bijoux",
     price: 35,
+    oldPrice: 45,
     description: "Bracelet chaîne délicat avec médaillon charm's en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -471,6 +483,7 @@ export const PRODUCTS: Product[] = [
     name: "Bague Croisée Lumineuse ",
     category: "bijoux",
     price: 30,
+    oldPrice: 35,
     description: "Bague au design croisé épuré en acier inoxydable de haute qualité plaqué or. Ne change pas de couleur, résistant à l'eau, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
