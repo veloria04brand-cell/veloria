@@ -19,7 +19,7 @@ export default function Hero() {
           L&apos;élégance se porte au quotidien
         </h1>
         <p className="mt-5 max-w-md text-sm md:text-base text-gris-clair">
-          Montres, bijoux, sacs et lunettes façonnés pour durer. Commandez en
+          Bijoux en acier inoxydable façonnés pour durer. Commandez en
           quelques clics, recevez chez vous.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
@@ -30,10 +30,10 @@ export default function Hero() {
             Découvrir la collection
           </Link>
           <Link
-            href="/catalogue?categorie=montres"
+            href="/catalogue?categorie=bijoux"
             className="border border-blanc/40 text-blanc px-8 py-3.5 text-sm eyebrow tracking-[0.15em] hover:border-blanc transition-colors"
           >
-            Voir les montres
+            Voir les bijoux
           </Link>
         </div>
       </div>
