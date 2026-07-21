@@ -57,7 +57,6 @@ export const PRODUCTS: Product[] = [
       { name: "Or", hex: "#b08d57" },
       { "name": "Blanc", "hex": "#ffffff" },
       
-
     ],
     stock: 2,
     images: [
@@ -88,7 +87,7 @@ export const PRODUCTS: Product[] = [
     "isNew": true
   },
  {
-    "id": "5",
+    "id": "4",
     "slug": "bague-solitaire-rose",
     "name": "Bague Solitaire Royal - Or",
     "category": "bijoux",
@@ -104,7 +103,27 @@ export const PRODUCTS: Product[] = [
     "isNew": true
   },
 
-
+{
+    id: "5",
+    slug: "boucles-oreilles-signature",
+    name: "Boucles d'oreilles Signature",
+    category: "bijoux",
+    price: 150,
+    description: "Paire de boucles d'oreilles en acier inoxydable plaqué . Design intemporel, résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
+    colors: [
+      { name: "Or", hex: "#b08d57" }
+    ],
+    stock: 3,
+    images: [
+      "https://i.ibb.co/7NkNbzKK/Gemini-Generated-Image-yryplgyryplgyryp.jpg"
+      "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-fkyp64fkyp64fkyp.jpg"
+      "https://i.ibb.co/c0JdMz1/Gemini-Generated-Image-v3jm3wv3jm3wv3jm.jpg"
+    ],
+  
+    popularity: 90,
+    isFeatured: true,
+    isNew: true
+  }
   
 
 ];
