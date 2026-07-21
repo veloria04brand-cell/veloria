@@ -25,6 +25,7 @@ export const PRODUCTS: Product[] = [
     name: "Ensemble Élégance",
     category: "bijoux",
     price: 100,
+    oldPrice: 130,
     description:
       "Ensemble raffiné composé d'un collier, de boucles d'oreilles et d'une bague, fabriqué en acier inoxydable avec une finition dorée.",
     colors: [
