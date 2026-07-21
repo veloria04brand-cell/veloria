@@ -43,7 +43,7 @@ export const PRODUCTS: Product[] = [
     slug: "bracelet-tulip",
     name: "bracelet tulip",
     category: "bijoux",
-    price: 100,
+    price: 40,
     description:
       "Bracelet délicat motif fleurs en plaqué or, orné de cristaux bleus profonds, idéal pour une touche d'élégance.",
     colors: [
@@ -64,7 +64,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-fleur-diamants",
     name: "Bague Pétale Lux - Or",
     category: "bijoux",
-    price: 190,
+    price: 30,
     description: "Bague en acier inoxydable plaqué or, design floral serti de zircons, garantie anti-ternissement et résistante à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-solitaire-rose",
     name: "Bague Solitaire Royal - Or",
     category: "bijoux",
-    price: 210,
+    price: 30,
     description: "Bague solitaire en acier inoxydable de haute qualité plaqué or avec pierre rose, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-signature",
     name: "Boucles d'oreilles Signature",
     category: "bijoux",
-    price: 150,
+    price: 20,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -116,7 +116,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-signature",
     name: "Boucles d'oreilles Signature",
     category: "bijoux",
-    price: 150,
+    price: 20,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -137,7 +137,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-signature",
     name: "Boucles d'oreilles Signature",
     category: "bijoux",
-    price: 150,
+    price: 20,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité (finition dorée). Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-color-bleu",
     name: "Boucles d'oreilles Éclat - Bleu",
     category: "bijoux",
-    price: 150,
+    price: 25,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Bleu", hex: "#3b82f6" }
@@ -173,7 +173,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-color-rose-bebe",
     name: "Boucles d'oreilles Éclat - Rose Bébé",
     category: "bijoux",
-    price: 150,
+    price: 25,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Rose Bébé", hex: "#fbcfe8" }
@@ -191,7 +191,7 @@ export const PRODUCTS: Product[] = [
     slug: "boucles-oreilles-color-somo",
     name: "Boucles d'oreilles Éclat - Somo",
     category: "bijoux",
-    price: 150,
+    price: 25,
     description: "Paire de boucles d'oreilles en acier inoxydable de haute qualité avec détail coloré. Résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Somo", hex: "#ffa07a" }
@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     slug: "collier-u-moderne",
     name: "Collier U-Link Élégance",
     category: "bijoux",
-    price: 180,
+    price: 45,
     description: "Collier géométrique en acier inoxydable de haute qualité (finition dorée). Design moderne et épuré, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -227,7 +227,7 @@ export const PRODUCTS: Product[] = [
     slug: "collier-croissant-lune",
     name: "Collier Croissant de Lune Serti",
     category: "bijoux",
-    price: 190,
+    price: 50,
     description: "Collier pendentif croissant de lune en acier inoxydable de haute qualité, orné de zircons éclatants. Résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -245,7 +245,7 @@ export const PRODUCTS: Product[] = [
     slug: "collier-goutte-perlee",
     name: "Collier Goutte Nacrée",
     category: "bijoux",
-    price: 170,
+    price: 45,
     description: "Collier délicat avec pendentif en forme de goutte en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -263,7 +263,7 @@ export const PRODUCTS: Product[] = [
     slug: "collier-solitaire-prestige",
     name: "Collier Solitaire Prestige",
     category: "bijoux",
-    price: 160,
+    price: 50,
     description: "Collier chaîne fine avec pierre solitaire étincelante en acier inoxydable de haute qualité. Élégant et intemporel, résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -281,7 +281,7 @@ export const PRODUCTS: Product[] = [
     slug: "jonc-minimaliste-lisse",
     name: "Jonc Minimaliste Lisse - Or",
     category: "bijoux",
-    price: 150,
+    price: 30,
     description: "Bracelet jonc rigide et épuré en acier inoxydable de haute qualité. Design intemporel, résistant à l'eau, ne change pas de couleur. Garantie 6 mois incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -296,10 +296,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "14",
-    slug: "bracelet-bambou-serti",
-    name: "Bracelet Bambou Serti de Zircons",
+    slug: "bracelet-bambou-serti ( AG)",
+    name: "Bracelet Bambou Serti de Zircons (AG)",
     category: "bijoux",
-    price: 180,
+    price: 60,
     description: "Bracelet rigide inspiré du design bambou en acier inoxydable de haute qualité, rehaussé de zircons étincelants. Résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -314,10 +314,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "15",
-    slug: "set-joncs-cise-or",
-    name: "Set de Joncs Ciselés - Or",
+    slug: "set-joncs-cise-or ",
+    name: "Set de Joncs Ciselés - (Sartla )",
     category: "bijoux",
-    price: 220,
+    price: 55,
     description: "Ensemble de jonc texturés et ajourés en acier inoxydable de haute qualité. Finition raffinée, résistant à l'eau, ne change pas de couleur. Garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -335,7 +335,7 @@ export const PRODUCTS: Product[] = [
     slug: "jonc-tube-serti",
     name: "Jonc Tube Serti Central",
     category: "bijoux",
-    price: 170,
+    price: 70,
     description: "Bracelet jonc élégant doté d'un cylindre central pavé de zircons en acier inoxydable de haute qualité. Résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     slug: "set-joncs-multiples-torsades",
     name: "Set Joncs Multiples & Torsades",
     category: "bijoux",
-    price: 240,
+    price: 70,
     description: "Accumulation de bracelets joncs lisses et torsadés en acier inoxydable de haute qualité. Style audacieux et intemporel, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -371,7 +371,7 @@ export const PRODUCTS: Product[] = [
     slug: "bracelet-clou-serti",
     name: "Bracelet Clou Serti Diamanté",
     category: "bijoux",
-    price: 190,
+    price: 35,
     description: "Bracelet design clou élégant entièrement pavé de zircons brillants en acier inoxydable de haute qualité. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -389,7 +389,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-perlee-zircon",
     name: "Bague Perlée Éclat - Or",
     category: "bijoux",
-    price: 160,
+    price: 30,
     description: "Bague en acier inoxydable de haute qualité plaqué or avec détail perlé et zircon central. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -405,7 +405,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-luxe-geometry",
     name: "Bague Géométrique Luxe - Or",
     category: "bijoux",
-    price: 180,
+    price: 30,
     description: "Bague moderne en acier inoxydable plaqué or au design structuré et lumineux. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -421,7 +421,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-serti-divine",
     name: "Bague Serti Divine - Or",
     category: "bijoux",
-    price: 200,
+    price: 30,
     description: "Bague élégante entièrement sertie de zircons en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -437,7 +437,7 @@ export const PRODUCTS: Product[] = [
     slug: "bague-alliance-zircon",
     name: "Bague Alliance Étincelante - Or",
     category: "bijoux",
-    price: 170,
+    price: 30,
     description: "Alliance fine en acier inoxydable de haute qualité plaqué or, pavée de zircons brillants. Ne change pas de couleur, résistant à l'eau.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -453,7 +453,7 @@ export const PRODUCTS: Product[] = [
     slug: "bracelet-initiale-prestige",
     name: "Bracelet Charm's Initiales & Étoile",
     category: "bijoux",
-    price: 180,
+    price: 35,
     description: "Bracelet chaîne délicat avec médaillon charm's en acier inoxydable de haute qualité plaqué or. Résistant à l'eau, ne change pas de couleur, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
@@ -469,12 +469,12 @@ export const PRODUCTS: Product[] = [
     slug: "bague-minimaliste-croisee",
     name: "Bague Croisée Lumineuse - Or",
     category: "bijoux",
-    price: 160,
+    price: 20,
     description: "Bague au design croisé épuré en acier inoxydable de haute qualité plaqué or. Ne change pas de couleur, résistant à l'eau, garantie incluse.",
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
-    stock: 1,
+    stock: 2,
     images: [
       "https://i.ibb.co/67T0SGTS/Gemini-Generated-Image-bvl0dcbvl0dcbvl0.jpg"],
     popularity: 91,
