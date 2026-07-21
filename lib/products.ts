@@ -145,7 +145,7 @@ export const PRODUCTS: Product[] = [
     ],
     stock: 1,
     images: [
-      "https://i.ibb.co/QFhW7vh9/Gemini-Generated-Image-5zxrx55zxrx55zxr.jpg "
+      "https://i.ibb.co/QFhW7vh9/Gemini-Generated-Image-5zxrx55zxrx55zxr.jpg"
     ],
     popularity: 91,
     isFeatured: true,
@@ -163,7 +163,7 @@ export const PRODUCTS: Product[] = [
     ],
     stock: 1,
     images: [
-      " https://i.ibb.co/sd1wwKwB/Gemini-Generated-Image-p5ienep5ienep5ie.jpg "
+      "https://i.ibb.co/sd1wwKwB/Gemini-Generated-Image-p5ienep5ienep5ie.jpg"
     ],
     popularity: 92,
     isFeatured: true,
