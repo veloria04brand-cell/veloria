@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
       { name: "Or", hex: "#b08d57" },
       { name: "Blanc", hex: "#ffffff" },
     ],
-    stock: 2,
+    stock: 1,
     images: [
       "https://i.ibb.co/Zz6yjzjt/Chat-GPT-Image-19-juil-2026-13-51-03.jpg",
       "https://i.ibb.co/SDTzr7fD/Chat-GPT-Image-19-juil-2026-13-52-25.jpg",
@@ -101,7 +101,7 @@ export const PRODUCTS: Product[] = [
     colors: [
       { name: "Or", hex: "#b08d57" }
     ],
-    stock: 3,
+    stock: 1,
     images: [
       "https://i.ibb.co/7NkNbzKK/Gemini-Generated-Image-yryplgyryplgyryp.jpg",
       "https://i.ibb.co/4ZdmrdjR/Gemini-Generated-Image-fkyp64fkyp64fkyp.jpg",
@@ -236,9 +236,8 @@ export const PRODUCTS: Product[] = [
     popularity: 94,
     isFeatured: true,
     isNew: true
-  }
-
-{
+  },
+  {
     id: "13",
     slug: "jonc-minimaliste-lisse",
     name: "Jonc Minimaliste Lisse - Or",
@@ -346,9 +345,6 @@ export const PRODUCTS: Product[] = [
     isFeatured: true,
     isNew: true
   }
-
-
-  
 ];
 
 export function getProductBySlug(slug: string) {
