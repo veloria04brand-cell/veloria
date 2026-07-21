@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 import { formatPrice } from "@/lib/products";
 import { SHOP } from "@/lib/config";
 import { saveOrder } from "@/lib/adminStore";
+import { getShippingFee } from "@/lib/shipping";
 
 export default function CheckoutPage() {
   const { items, totalPrice, clearCart } = useCart();
@@ -18,6 +19,13 @@ export default function CheckoutPage() {
   const [address, setAddress] = useState("");
   const [comment, setComment] = useState("");
   const [error, setError] = useState("");
+
+  const shippingFee = useMemo(() => {
+    if (!city.trim()) return 0;
+    return getShippingFee(city);
+  }, [city]);
+
+  const grandTotal = totalPrice + shippingFee;
 
   if (items.length === 0) {
     return (
@@ -50,7 +58,9 @@ export default function CheckoutPage() {
       );
     });
     lines.push("");
-    lines.push(`Total : ${formatPrice(totalPrice)}`);
+    lines.push(`Sous-total : ${formatPrice(totalPrice)}`);
+    lines.push(`Frais de livraison (${city}) : ${formatPrice(shippingFee)}`);
+    lines.push(`Total à payer : ${formatPrice(grandTotal)}`);
     lines.push("");
     lines.push("--- Informations client ---");
     lines.push(`Nom : ${fullName}`);
@@ -88,7 +98,7 @@ export default function CheckoutPage() {
         quantity: i.quantity,
         price: i.price,
       })),
-      total: totalPrice,
+      total: grandTotal,
     });
 
     window.open(url, "_blank");
@@ -145,6 +155,11 @@ export default function CheckoutPage() {
                 className="w-full border border-noir/15 px-4 py-3 text-sm bg-blanc focus:outline-none focus:border-or transition-colors"
                 placeholder="Casablanca"
               />
+              {city.trim() && (
+                <p className="text-xs text-or-fonce mt-1.5">
+                  Frais de livraison estimés : {formatPrice(shippingFee)}
+                </p>
+              )}
             </div>
             <div>
               <label className="eyebrow block mb-2" htmlFor="address">
@@ -188,7 +203,6 @@ export default function CheckoutPage() {
           </p>
         </form>
 
-        {/* Récapitulatif */}
         <aside className="bg-ivoire p-6 h-fit">
           <h2 className="eyebrow mb-5">Récapitulatif</h2>
           <div className="space-y-4">
@@ -206,9 +220,23 @@ export default function CheckoutPage() {
               </div>
             ))}
           </div>
-          <div className="border-t border-noir/10 mt-5 pt-5 flex justify-between font-display text-lg">
+
+          <div className="border-t border-noir/10 mt-5 pt-4 space-y-2">
+            <div className="flex justify-between text-sm text-gris">
+              <span>Sous-total</span>
+              <span>{formatPrice(totalPrice)}</span>
+            </div>
+            <div className="flex justify-between text-sm text-gris">
+              <span>Livraison{city.trim() ? ` (${city})` : ""}</span>
+              <span>
+                {city.trim() ? formatPrice(shippingFee) : "à calculer"}
+              </span>
+            </div>
+          </div>
+
+          <div className="border-t border-noir/10 mt-3 pt-3 flex justify-between font-display text-lg">
             <span>Total</span>
-            <span className="text-or-fonce">{formatPrice(totalPrice)}</span>
+            <span className="text-or-fonce">{formatPrice(grandTotal)}</span>
           </div>
         </aside>
       </div>
